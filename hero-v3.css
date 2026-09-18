@@ -41,16 +41,14 @@
   pointer-events:none;
 }
 .hero:after{
-  content:"MODULAR / UNISEX / LAYER 01";
+  content:"";
   position:absolute;
   z-index:4;
   right:var(--pad);
   bottom:30px;
-  font-size:8px;
-  line-height:1;
-  letter-spacing:.2em;
-  text-transform:uppercase;
-  color:rgba(236,231,220,.56);
+  width:84px;
+  height:1px;
+  background:linear-gradient(to left,rgba(236,231,220,.62),rgba(236,231,220,0));
   pointer-events:none;
 }
 .hero-media{
