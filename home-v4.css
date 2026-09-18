@@ -620,3 +620,32 @@
   .product-media img{transition:none}
   .circle-link{transition:none}
 }
+
+
+/* Accessibility hardening — microcopy and image-overlay labels */
+.product-meta p,
+.product-meta strong{
+  color:#5d5851;
+}
+.media-number{
+  background:#080806;
+  color:#f3efe7;
+  border-color:#080806;
+  mix-blend-mode:normal;
+}
+.hero-media figcaption,
+.campaign-break figcaption{
+  color:#f3efe7;
+  background:rgba(8,8,6,.82);
+  border-color:rgba(243,239,231,.34);
+  padding:9px 11px;
+}
+.footer-grid span,
+.demo-disclosure{
+  color:#aaa49b;
+}
+.bag-item p,
+.bag-item span,
+.bag-bottom{
+  color:#5d5851;
+}
